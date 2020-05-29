@@ -1496,7 +1496,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var AuthService = /** @class */ (function () {
     function AuthService(http) {
         this.http = http;
-        this.url = 'https://blogtaiapp.herokuapp.com';
+        this.url = 'https://blogtaiapp.herokuapp.com/api';
     }
     AuthService.prototype.authenticate = function (credentials) {
         return this.http.post(this.url + '/user/auth', {
